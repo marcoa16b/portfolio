@@ -12,7 +12,8 @@ import { Button } from '@/components/ui/button'
 const navItems = [
   { href: '/#about', label: 'Sobre mí' },
   { href: '/projects', label: 'Proyectos' },
-  { href: '/#experience', label: 'Trayectoria' },
+  { href: '/#technologies', label: 'Habilidades' },
+  { href: '/#contact', label: 'Contacto' },
 ]
 
 function Header() {
