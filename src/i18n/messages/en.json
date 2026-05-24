@@ -1,0 +1,75 @@
+{
+  "Home": {
+    "hero": {
+      "title": "Hi!, I'm Marco Agüero",
+      "role": "Full Stack Developer specializing in web applications and process automation",
+      "description": "I develop modern applications and intelligent automations that help companies optimize operations, reduce manual work, and improve their internal processes.",
+      "country": "Costa Rica",
+      "projects": "See projects",
+      "downloadCV": "Download CV",
+      "contact": "Contact",
+      "stack": "My main stack"
+    },
+    "about": {
+      "title": "What I do",
+      "description": "I specialize in web application development and business process automation. My approach is to build useful, fast, and easy-to-maintain solutions.",
+      "card1": {
+        "title": "Full Stack Developer",
+        "description": "I develop modern web applications using technologies such as Next.js, TypeScript, and PostgreSQL.\nI work on administrative systems, dashboards, internal platforms, APIs, and applications focused on performance, scalability, and a good user experience."
+      },
+      "card2": {
+        "title": "Process Automation",
+        "description": "I also develop automations that help reduce repetitive tasks and improve operational workflows.\nI have worked on solutions for document processing, data synchronization, administrative task automation, and system integration."
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "back": "Back",
+      "challenge": "The challenge",
+      "solution": "The solution",
+      "results": "Results",
+      "viewMore": "View more",
+      "viewAll": "View all projects"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "intro": "These are some of the technologies I work with regularly.",
+      "mainStackTitle": "Main stack",
+      "mainStackDescription": "My main stack is focused on modern web development and process automation.",
+      "otherTitle": "Other technologies",
+      "otherDescription": "I also have experience working with complementary tools and technologies for deployment, automation, and service integration.",
+      "categories": {
+        "languages": "Languages",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "ai": "AI & Automation",
+        "tools": "Tools & Cloud",
+        "design": "Design & Management",
+        "other": "Other"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have a project in mind or just want to say hi, feel free to reach out.",
+      "formName": "Name",
+      "formEmail": "Email",
+      "formMessage": "Message",
+      "formSubmit": "Send message",
+      "formSending": "Sending...",
+      "formSuccess": "Message sent successfully. Thanks for reaching out.",
+      "formError": "An error occurred while sending the message. Please try again.",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    },
+    "metadata": {
+      "title": "Nandev - Personal portfolio",
+      "description": "Welcome to my personal portfolio"
+    },
+    "footer": {
+      "quickLinks": "Quick Links",
+      "social": "Social",
+      "copyright": "© {year} Marco Agüero. All rights reserved.",
+      "builtWith": "Built with Next.js"
+    }
+  }
+}

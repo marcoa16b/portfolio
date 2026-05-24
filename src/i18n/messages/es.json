@@ -1,0 +1,75 @@
+{
+  "Home": {
+    "hero": {
+      "title": "Hola!, soy Marco Agüero",
+      "role": "Desarrollador Full Stack especializado en aplicaciones web y automatización de procesos",
+      "description": "Desarrollo aplicaciones modernas y automatizaciones inteligentes que ayudan a empresas a optimizar operaciones, reducir trabajo manual y mejorar sus procesos internos.",
+      "country": "Costa Rica",
+      "projects": "Ver proyectos",
+      "downloadCV": "Descargar CV",
+      "contact": "Contáctame",
+      "stack": "Mi Stack principal"
+    },
+    "about": {
+      "title": "Qué hago",
+      "description": "Me especializo en el desarrollo de aplicaciones web y automatización de procesos empresariales. Mi enfoque es construir soluciones útiles, rápidas y fáciles de mantener.",
+      "card1": {
+        "title": "Desarrollo Full Stack",
+        "description": "Desarrollo aplicaciones web modernas utilizando tecnologías como Next.js, TypeScript y PostgreSQL.\nTrabajo en sistemas administrativos, dashboards, plataformas internas, APIs y aplicaciones enfocadas en rendimiento, escalabilidad y buena experiencia de usuario."
+      },
+      "card2": {
+        "title": "Automatización de procesos",
+        "description": "También desarrollo automatizaciones que ayudan a reducir tareas repetitivas y mejorar flujos operativos.\nHe trabajado en soluciones para procesamiento de documentos, sincronización de información, automatización de tareas administrativas e integración entre sistemas."
+      }
+    },
+    "projects": {
+      "title": "Proyectos",
+      "back": "Volver",
+      "challenge": "El desafío",
+      "solution": "La solución",
+      "results": "Resultados",
+      "viewMore": "Ver más",
+      "viewAll": "Ver todos los proyectos"
+    },
+    "technologies": {
+      "title": "Tecnologías",
+      "intro": "Estas son algunas de las tecnologías con las que trabajo regularmente.",
+      "mainStackTitle": "Stack principal",
+      "mainStackDescription": "Mi stack principal está enfocado en desarrollo web moderno y automatización de procesos.",
+      "otherTitle": "Otras tecnologías",
+      "otherDescription": "También tengo experiencia trabajando con herramientas y tecnologías complementarias para despliegue, automatización e integración de servicios.",
+      "categories": {
+        "languages": "Lenguajes",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "ai": "IA y Automatización",
+        "tools": "Herramientas y Cloud",
+        "design": "Diseño y Gestión",
+        "other": "Otras"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Si tienes un proyecto en mente o simplemente quieres saludar, no dudes en escribirme.",
+      "formName": "Nombre",
+      "formEmail": "Correo electrónico",
+      "formMessage": "Mensaje",
+      "formSubmit": "Enviar mensaje",
+      "formSending": "Enviando...",
+      "formSuccess": "Mensaje enviado con éxito. Gracias por contactarme.",
+      "formError": "Ocurrió un error al enviar el mensaje. Intenta de nuevo.",
+      "linkedin": "LinkedIn",
+      "email": "Correo electrónico"
+    },
+    "metadata": {
+      "title": "Nandev - Portafolio personal",
+      "description": "Bienvenido a mi portafolio personal"
+    },
+    "footer": {
+      "quickLinks": "Enlaces rápidos",
+      "social": "Redes sociales",
+      "copyright": "© {year} Marco Agüero. Todos los derechos reservados.",
+      "builtWith": "Construido con Next.js"
+    }
+  }
+}

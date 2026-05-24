@@ -19,8 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "@payload-config": ["./payload.config.ts"]
+    },
+    "typeRoots": ["./src/types", "./node_modules/@types"]
   },
   "include": [
     "next-env.d.ts",
