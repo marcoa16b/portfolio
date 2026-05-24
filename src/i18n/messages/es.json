@@ -1,5 +1,13 @@
 {
   "Home": {
+    "nav": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "contact": "Contacto",
+      "menuOpen": "Abrir menú",
+      "menuClose": "Cerrar menú"
+    },
     "hero": {
       "title": "Hola!, soy Marco Agüero",
       "role": "Desarrollador Full Stack especializado en aplicaciones web y automatización de procesos",

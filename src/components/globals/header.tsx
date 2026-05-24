@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from '@/i18n/navigation'
 import { usePathname } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 import { AnimatePresence, motion } from 'motion/react'
 import { Menu, X } from 'lucide-react'
 import ThemeToggle from '@/components/globals/theme-toggle'
@@ -10,16 +11,17 @@ import LanguageSwitcher from '@/components/globals/language-switcher'
 import { Button } from '@/components/ui/button'
 
 const navItems = [
-  { href: '/#about', label: 'Sobre mí' },
-  { href: '/projects', label: 'Proyectos' },
-  { href: '/#technologies', label: 'Habilidades' },
-  { href: '/#contact', label: 'Contacto' },
+  { href: '/#about', key: 'about' },
+  { href: '/projects', key: 'projects' },
+  { href: '/#technologies', key: 'skills' },
+  { href: '/#contact', key: 'contact' },
 ]
 
 function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const pathname = usePathname()
+  const t = useTranslations('Home.nav')
 
   useEffect(() => {
     function handleScroll() {
@@ -61,7 +63,7 @@ function Header() {
                 href={item.href}
                 className="text-xs text-muted-foreground hover:text-foreground duration-200"
               >
-                {item.label}
+                {t(item.key)}
               </Link>
             ))}
           </nav>
@@ -76,7 +78,7 @@ function Header() {
             size="icon"
             className="md:hidden"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+            aria-label={menuOpen ? t('menuClose') : t('menuOpen')}
           >
             {menuOpen ? <X className="size-4" /> : <Menu className="size-4" />}
           </Button>
@@ -102,7 +104,7 @@ function Header() {
                   className="text-muted-foreground hover:text-foreground duration-200"
                   onClick={() => setMenuOpen(false)}
                 >
-                  {item.label}
+                  {t(item.key)}
                 </Link>
               ))}
             </nav>
