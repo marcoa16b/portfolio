@@ -115,6 +115,7 @@ export const Projects: CollectionConfig = {
           name: "label",
           type: "text",
           required: true,
+          localized: true,
         },
         {
           name: "url",
